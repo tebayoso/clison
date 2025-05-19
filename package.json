@@ -1,0 +1,27 @@
+{
+  "name": "clison",
+  "version": "0.1.0",
+  "description": "LLM-friendly CLI tool for processing JSON with JavaScript-like accessors",
+  "main": "index.js",
+  "bin": {
+    "clison": "./bin/clison.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "cli",
+    "llm",
+    "parser",
+    "tool"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "lodash": "^4.17.21"
+  }
+}
